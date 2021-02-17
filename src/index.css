@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(238, 213, 181);
+  background-color: rgb(236, 234, 231);
 }
 .App-header {
   background-color: rgb(241, 165, 66);
@@ -8,6 +8,7 @@ body {
   height: 900px;
   width: 900px;
 }
+
 .menu {
   height: 300px;
   width: 300px;
