@@ -1,14 +1,16 @@
 import img from "../image/daraljenan.JPG";
-import "../App.css";
+import styles from "../styles";
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Dar Aljenan Resturent</h1>
-        <h4>Served all kind of food, but our specialty is grape leaves.</h4>
-        <img src={img} className="App-front" alt="front" />
-      </header>
+    <div>
+      <div style={styles.list}>
+        <h1 style={styles.text}>Welcome to Dar Aljenan</h1>
+        <h4 style={styles.text}>
+          Served all kind of food, but our specialty is grape leaves.
+        </h4>
+        <img style={styles.shopImage} alt="Dar Aljenan" src={img} />
+      </div>
     </div>
   );
 }

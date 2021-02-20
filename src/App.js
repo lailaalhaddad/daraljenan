@@ -1,10 +1,10 @@
-import "./App.css";
 import ProductList from "./ProductList";
 import Home from "./components/Home";
+import styles from "./styles";
 
 function App() {
   return (
-    <div>
+    <div style={styles.body}>
       <div>
         <Home />
       </div>
