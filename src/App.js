@@ -1,15 +1,16 @@
-import ProductList from "./ProductList";
+import ProductList from "./components/ProductList";
 import Home from "./components/Home";
-import styles from "./styles";
 
 function App() {
   return (
-    <div style={styles.body}>
+    <div>
       <div>
         <Home />
       </div>
       <div>
-        <ProductList />
+        <div>
+          <ProductList />
+        </div>
       </div>
     </div>
   );
